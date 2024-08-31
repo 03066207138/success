@@ -1,0 +1,57 @@
+.navbar-brand {
+    padding-left: 10px;
+}
+
+.navbar-nav {
+    padding-left: 20px;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar-text {
+    padding-left: 7px;
+    color: black;
+    font-weight: bolder;
+}
+
+.navbar-nav .nav-item a {
+    color: black;
+    font-weight: 500;
+    margin-left: 10px;
+
+}
+
+/* .header-img{
+
+   } */
+.heading {
+    position: absolute;
+    color: whitesmoke;
+    left: 700px;
+    bottom: 500px;
+    top: 300px;
+}
+
+/* nav link */
+
+/* media query */
+@media only screen and (min-width:600px) {
+    .heading {
+        position: absolute;
+        color: whitesmoke;
+        left: 700px;
+        bottom: 500px;
+        top: 300px;
+    }
+}
+
+/* to hide button */
+@media print {
+    #print {
+        display: none;
+    }
+}
